@@ -85,7 +85,7 @@
 		
 		<div class="featured_wrapper">
 			
-			<a href="#">
+			<a href="http://www.haggarthomes.com/street-of-dreams/">
 			
 				<div class="featured_item">
 					
@@ -99,7 +99,7 @@
 		
 		<div class="featured_wrapper">
 			
-			<a href="#">
+			<a href="http://www.haggarthomes.com/street-of-dreams/">
 			
 				<div class="featured_item">
 					
@@ -113,7 +113,7 @@
 		
 		<div class="featured_wrapper">
 			
-			<a href="#">
+			<a href="http://www.haggarthomes.com/gallery/">
 			
 				<div class="featured_item">
 					
@@ -127,7 +127,7 @@
 		
 		<div class="featured_wrapper">
 			
-			<a href="#">
+			<a href="http://www.haggarthomes.com/gallery/">
 			
 				<div class="featured_item">
 					
@@ -141,15 +141,17 @@
 		
 	</div>
 	
-	<div class="edit_button">
+	<?php if(is_user_logged_in()):?>
 	
-		<span class="edit"><?php edit_post_link(); ?></span>
+		<div class="edit_button">
+		
+			<span class="edit"><?php edit_post_link(); ?></span>
+		
+		</div>
 	
-	</div>
+	<?php endif; ?>
 
 </div>
-
-
 
 <?php
 	
