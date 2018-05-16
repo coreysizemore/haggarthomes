@@ -1,8 +1,10 @@
-/**************************************************************/
-/******************    Custom Stylesheet    *******************/
-/*******************   by Corey Sizemore   ********************/
-/*******************     version 1.0       ********************/
-/**************************************************************/
+/* color variables */
+
+$colorone: #b21f29;
+$colortwo: #222222;
+$colorthree: #333333;
+
+/* end color variables */
 
 header.home_default_image {
     background: url('../img/bg1.jpg') no-repeat;
@@ -16,19 +18,19 @@ header.page_default_image {
     background-attachment: fixed;
 }
 
-header.page_default_image.gallery {
+.page-id-142 header.page_default_image {
 	background: url('../img/page2.jpg') no-repeat;
     background-size: 100%;
     background-attachment: fixed;
 }
 
-header.page_default_image.featured {
+.page-id-144 header.page_default_image {
 	background: url('../img/page3.jpg') no-repeat;
     background-size: 100%;
     background-attachment: fixed;
 }
 
-header.page_default_image.street-of-dreams {
+.page-id-146 header.page_default_image {
 	background: url('../img/page4.jpg') no-repeat;
     background-size: 100%;
     background-attachment: fixed;
@@ -118,7 +120,35 @@ header.page_default_image.street-of-dreams {
 	}
 }
 
+a#searchopen:link, a#searchopen:visited,a#mobileopen:link, a#mobileopen:visited {
+	color: $colorone;
+}
 
+#home_logo #home_page_nav ul li a:link, #home_logo #home_page_nav ul li a:visited {
+	background: $colorone;
+}
+
+.content {
+	
+	h1,h3 {
+		color: $colorone;
+	}
+	
+	a:link,a:visited {
+		color: $colorone;
+	}
+}
+
+.appointment {
+	background: $colorone;
+}
+
+.edit_button {
+	a:link,
+	a:visited {
+		background: $colorone;
+	}
+}
 
 
 
@@ -141,19 +171,19 @@ header.page_default_image.street-of-dreams {
 	    background-attachment: fixed;
 	}
 	
-	header.header_page.page_default_image.gallery {
+	.page-id-142 header.header_page.page_default_image {
 		background: url('../img/page2_mobile.jpg') no-repeat;
 	    background-size: 100%;
 	    background-attachment: fixed;
 	}
 	
-	header.header_page.page_default_image.featured {
+	.page-id-144 header.header_page.page_default_image {
 		background: url('../img/page3_mobile.jpg') no-repeat;
 	    background-size: 100%;
 	    background-attachment: fixed;
 	}
 	
-	header.header_page.page_default_image.street-of-dreams {
+	.page-id-146 header.header_page.page_default_image {
 		background: url('../img/page4_mobile.jpg') no-repeat;
 	    background-size: 100%;
 	    background-attachment: fixed;
@@ -181,19 +211,19 @@ header.page_default_image.street-of-dreams {
 	    background-attachment: fixed;
 	}
 	
-	header.header_page.page_default_image.gallery {
+	.page-id-142 header.header_page.page_default_image {
 		background: url('../img/page2_mobile.jpg') no-repeat;
 	    background-size: 100%;
 	    background-attachment: fixed;
 	}
 	
-	header.header_page.page_default_image.featured {
+	.page-id-144 header.header_page.page_default_image {
 		background: url('../img/page3_mobile.jpg') no-repeat;
 	    background-size: 100%;
 	    background-attachment: fixed;
 	}
 	
-	header.header_page.page_default_image.street-of-dreams {
+	.page-id-146 header.header_page.page_default_image {
 		background: url('../img/page4_mobile.jpg') no-repeat;
 	    background-size: 100%;
 	    background-attachment: fixed;
@@ -221,19 +251,19 @@ header.page_default_image.street-of-dreams {
 	    background-attachment: fixed;
 	}
 	
-	header.header_page.page_default_image.gallery {
+	.page-id-142 header.header_page.page_default_image {
 		background: url('../img/page2_mobile.jpg') no-repeat;
 	    background-size: 100%;
 	    background-attachment: fixed;
 	}
 	
-	header.header_page.page_default_image.featured {
+	.page-id-144 header.header_page.page_default_image {
 		background: url('../img/page3_mobile.jpg') no-repeat;
 	    background-size: 100%;
 	    background-attachment: fixed;
 	}
 	
-	header.header_page.page_default_image.street-of-dreams {
+	.page-id-146 header.header_page.page_default_image {
 		background: url('../img/page4_mobile.jpg') no-repeat;
 	    background-size: 100%;
 	    background-attachment: fixed;
