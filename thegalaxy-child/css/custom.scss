@@ -6,38 +6,47 @@ $colorthree: #333333;
 
 /* end color variables */
 
-header.home_default_image {
+header {
     background: url('../img/bg1.jpg') no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    
+    #home_logo {
+	    #home_page_nav {
+		    ul {
+			    li {
+				    a:link,
+				    a:visited {
+					    background: $colorone;
+				    }
+			    }
+		    }
+	    }
+    }
 }
 
-header.page_default_image {
+header#header_page {
 	background: url('../img/page1.jpg') no-repeat;
     background-size: 100%;
     background-attachment: fixed;
 }
 
-.page-id-142 header.page_default_image {
+.page-id-142 header#header_page {
 	background: url('../img/page2.jpg') no-repeat;
     background-size: 100%;
     background-attachment: fixed;
 }
 
-.page-id-144 header.page_default_image {
+.page-id-144 header#header_page {
 	background: url('../img/page3.jpg') no-repeat;
     background-size: 100%;
     background-attachment: fixed;
 }
 
-.page-id-146 header.page_default_image {
+.page-id-146 header#header_page {
 	background: url('../img/page4.jpg') no-repeat;
     background-size: 100%;
     background-attachment: fixed;
-}
-
-.main.main_home {
-	padding: 0;
 }
 
 .home_featured {
@@ -128,6 +137,12 @@ a#searchopen:link, a#searchopen:visited,a#mobileopen:link, a#mobileopen:visited 
 	background: $colorone;
 }
 
+#main.nothing_displayed {
+	margin: 0px;
+	padding: 0px;
+	height: 0px;
+}
+
 .content {
 	
 	h1,h3 {
@@ -139,8 +154,20 @@ a#searchopen:link, a#searchopen:visited,a#mobileopen:link, a#mobileopen:visited 
 	}
 }
 
-.appointment {
+#attention_bar {
 	background: $colorone;
+	
+	.attention_bar_top,
+	.attention_bar_bottom {
+		ul {
+			li {
+				a:link,
+				a:visited {
+					color: $colorone;
+				}
+			}
+		}
+	}
 }
 
 .edit_button {
@@ -159,31 +186,31 @@ a#searchopen:link, a#searchopen:visited,a#mobileopen:link, a#mobileopen:visited 
 	
 @media (min-width: 768px) and (max-width: 979px) {
 	
-	header.home_default_image {
+	header {
 	    background: url('../img/bg1_mobile.jpg') no-repeat;
 	    background-size: 100%;
 	    background-attachment: fixed;
 	}
 	
-	header.header_page.header_page_mobile {
+	header#header_page {
 		background: url('../img/page1_mobile.jpg') no-repeat;
 	    background-size: 100%;
 	    background-attachment: fixed;
 	}
 	
-	.page-id-142 header.header_page.page_default_image {
+	.page-id-142 hheader#header_page {
 		background: url('../img/page2_mobile.jpg') no-repeat;
 	    background-size: 100%;
 	    background-attachment: fixed;
 	}
 	
-	.page-id-144 header.header_page.page_default_image {
+	.page-id-144 header#header_page {
 		background: url('../img/page3_mobile.jpg') no-repeat;
 	    background-size: 100%;
 	    background-attachment: fixed;
 	}
 	
-	.page-id-146 header.header_page.page_default_image {
+	.page-id-146 header#header_page {
 		background: url('../img/page4_mobile.jpg') no-repeat;
 	    background-size: 100%;
 	    background-attachment: fixed;
@@ -199,31 +226,31 @@ a#searchopen:link, a#searchopen:visited,a#mobileopen:link, a#mobileopen:visited 
 	
 @media (min-width: 480px) and (max-width: 767px) {
 	
-	header.home_default_image {
+	header {
 	    background: url('../img/bg1_mobile.jpg') no-repeat;
 	    background-size: 150%;
 	    background-attachment: fixed;
 	}
 	
-	header.header_page.header_page_mobile {
+	header#header_page {
 		background: url('../img/page1_mobile.jpg') no-repeat;
 	    background-size: 100%;
 	    background-attachment: fixed;
 	}
 	
-	.page-id-142 header.header_page.page_default_image {
+	.page-id-142 header#header_page {
 		background: url('../img/page2_mobile.jpg') no-repeat;
 	    background-size: 100%;
 	    background-attachment: fixed;
 	}
 	
-	.page-id-144 header.header_page.page_default_image {
+	.page-id-144 header#header_page {
 		background: url('../img/page3_mobile.jpg') no-repeat;
 	    background-size: 100%;
 	    background-attachment: fixed;
 	}
 	
-	.page-id-146 header.header_page.page_default_image {
+	.page-id-146 header#header_page {
 		background: url('../img/page4_mobile.jpg') no-repeat;
 	    background-size: 100%;
 	    background-attachment: fixed;
@@ -239,31 +266,31 @@ a#searchopen:link, a#searchopen:visited,a#mobileopen:link, a#mobileopen:visited 
 	
 @media (min-width: 0px) and (max-width: 479px) {
 	
-	header.home_default_image {
+	header {
 	    background: url('../img/bg1_mobile.jpg') no-repeat;
 	    background-size: 200%;
 	    background-attachment: fixed;
 	}
 	
-	header.header_page.header_page_mobile {
+	header#header_page {
 		background: url('../img/page1_mobile.jpg') no-repeat;
 	    background-size: 100%;
 	    background-attachment: fixed;
 	}
 	
-	.page-id-142 header.header_page.page_default_image {
+	.page-id-142 header#header_page {
 		background: url('../img/page2_mobile.jpg') no-repeat;
 	    background-size: 100%;
 	    background-attachment: fixed;
 	}
 	
-	.page-id-144 header.header_page.page_default_image {
+	.page-id-144 header#header_page {
 		background: url('../img/page3_mobile.jpg') no-repeat;
 	    background-size: 100%;
 	    background-attachment: fixed;
 	}
 	
-	.page-id-146 header.header_page.page_default_image {
+	.page-id-146 header#header_page {
 		background: url('../img/page4_mobile.jpg') no-repeat;
 	    background-size: 100%;
 	    background-attachment: fixed;
