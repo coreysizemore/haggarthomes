@@ -130,14 +130,18 @@ header#header_page {
 }
 
 a#searchopen:link, a#searchopen:visited,a#mobileopen:link, a#mobileopen:visited {
-	color: $colorone;
+	background: $colorone;
+}
+
+#mobile_nav {
+	background: rgba($colorone, .95);
 }
 
 #home_logo #home_page_nav ul li a:link, #home_logo #home_page_nav ul li a:visited {
 	background: $colorone;
 }
 
-#main.nothing_displayed {
+.home_featured + #main {
 	margin: 0px;
 	padding: 0px;
 	height: 0px;
